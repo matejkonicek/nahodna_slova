@@ -29,7 +29,7 @@ namespace nahodna_slova
             {
                 for (int n = 0; n < pismena.GetLength(1); n++)
                 {
-                    Console.ForegroundColor = (ConsoleColor)rnd.Next(0, 16);
+                    Console.ForegroundColor = (ConsoleColor)rnd.Next(1, 16);
                     Console.Write(pismena[m, n] + "   ");
                 }
                 Console.WriteLine();
